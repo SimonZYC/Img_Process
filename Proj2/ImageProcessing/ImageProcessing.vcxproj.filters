@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\OpenBMP">
+      <UniqueIdentifier>{40d95eab-c17c-4f2f-9582-833f7bf6092c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\OpenBMP">
+      <UniqueIdentifier>{76c2f10b-8f83-4293-83b6-dad1352e242d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DrawHistogram">
+      <UniqueIdentifier>{fa4aebb5-9561-4d43-bf6f-2374cfe8c20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DrawHistogram">
+      <UniqueIdentifier>{a32be212-01c6-4623-be81-1d545336ac20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\HistogramEqualization">
+      <UniqueIdentifier>{4e0d8748-572f-46b8-b60f-72595e3705c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Histogram Equalization">
+      <UniqueIdentifier>{e579016c-274a-42a8-8631-3c42f80dddc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openBMP.h">
+      <Filter>头文件\OpenBMP</Filter>
+    </ClInclude>
+    <ClInclude Include="drawHistogram.h">
+      <Filter>头文件\DrawHistogram</Filter>
+    </ClInclude>
+    <ClInclude Include="histogramEqualization.h">
+      <Filter>头文件\Histogram Equalization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcessing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openBMP.cpp">
+      <Filter>源文件\OpenBMP</Filter>
+    </ClCompile>
+    <ClCompile Include="drawHistogram.cpp">
+      <Filter>源文件\DrawHistogram</Filter>
+    </ClCompile>
+    <ClCompile Include="histogramEqualization.cpp">
+      <Filter>源文件\HistogramEqualization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageProcessing.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ImageProcessing.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="check.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
